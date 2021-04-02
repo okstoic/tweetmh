@@ -1,0 +1,100 @@
+body {
+    background-color: #01365F;
+    color: #ffffff;
+    font-family: Helvetica Neue;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation h1 {
+    font-size: 54px;
+    margin: 0;
+    text-shadow: 0px 2px 1px #000000;
+}
+
+.navigation .description {
+    font-size: 18px;
+}
+
+.navigation a button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.navigation a button:hover {
+  background-color: #3e8e41;
+}
+
+.navigation a button:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+
+.card-layout {
+    display: table;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.card-layout h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.card-layout li {
+    float: left;
+    list-style: none;
+}
+
+.stat {
+    border-radius: 5px;
+    background: #ffffff;
+    width: 220px;
+    margin: 0 20px;
+    padding: 0 10x;
+    font-size: 32px;
+    color: #000000;
+    text-shadow: none;
+}
+
+.stat h1 {
+    font-size: 36px;
+    color: #000000;
+    margin: 0px;
+}
+
+.stat h2 {
+    padding-top: 5px;
+    font-size: 20px;
+    color: #67758D;
+}
+
+.stat h3 {
+    font-size: 12px;
+    color: #555555;
+    padding-bottom: 15px;
+}
+
+.stat table {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.stat th {
+    font-size: 18px;
+}
+
+.stat td {
+    font-size: 18px;
+}
+
+
